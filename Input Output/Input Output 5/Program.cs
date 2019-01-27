@@ -10,7 +10,7 @@ namespace InputOutput
         static void Main()
         {
             // Создаем новый файл в корневом каталоге диска D:
-            var file = new FileInfo(@"D:\zzz\\Test.txt");
+            var file = new FileInfo(@"D:\zzz\Test.txt");
 
             FileStream stream = file.Create();
 
