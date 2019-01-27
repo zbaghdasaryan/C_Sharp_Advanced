@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input Output 7", "Input Out
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input Output 8", "Input Output 8\Input Output 8.csproj", "{FE157912-2EBE-4FF9-875E-80DCFB6849ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input Output 9", "Input Output 9\Input Output 9.csproj", "{F129540F-5614-418B-B2D1-65B06019508A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{FE157912-2EBE-4FF9-875E-80DCFB6849ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE157912-2EBE-4FF9-875E-80DCFB6849ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE157912-2EBE-4FF9-875E-80DCFB6849ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F129540F-5614-418B-B2D1-65B06019508A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F129540F-5614-418B-B2D1-65B06019508A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F129540F-5614-418B-B2D1-65B06019508A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F129540F-5614-418B-B2D1-65B06019508A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
