@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task Paralell Library", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL Task 1", "TPL Task 1\TPL Task 1.csproj", "{3E13F8CB-8B6D-4540-AA32-7E290D1B1479}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL Task 2", "TPL Task 2\TPL Task 2.csproj", "{16BDD41B-EF85-4094-9847-15980D966DE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3E13F8CB-8B6D-4540-AA32-7E290D1B1479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E13F8CB-8B6D-4540-AA32-7E290D1B1479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E13F8CB-8B6D-4540-AA32-7E290D1B1479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BDD41B-EF85-4094-9847-15980D966DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BDD41B-EF85-4094-9847-15980D966DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BDD41B-EF85-4094-9847-15980D966DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BDD41B-EF85-4094-9847-15980D966DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
