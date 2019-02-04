@@ -10,7 +10,7 @@ namespace PathDemo
         static void Main()
         {
             // Создание строки, содержащей адрес.
-            string path = @"C:\Windows\notepad.exe";
+            string path = @"D:\notepad.txt";
             Console.WriteLine(path);
 
             // Вывод на экран значений свойств класса-объекта Path.

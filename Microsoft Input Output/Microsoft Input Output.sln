@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveInfoDemo", "DriveInfoD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathDemo", "PathDemo\PathDemo.csproj", "{9FC1F356-3F81-4FAF-BAA9-90E23ACA723A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcherDemo", "FileSystemWatcherDemo\FileSystemWatcherDemo.csproj", "{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,14 @@ Global
 		{9FC1F356-3F81-4FAF-BAA9-90E23ACA723A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FC1F356-3F81-4FAF-BAA9-90E23ACA723A}.Release|x86.ActiveCfg = Release|Any CPU
 		{9FC1F356-3F81-4FAF-BAA9-90E23ACA723A}.Release|x86.Build.0 = Release|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB402A46-6400-41A7-B0FE-8D2C7F2B3F27}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
