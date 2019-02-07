@@ -5,19 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace Async_Await_Continuation
+namespace Async_Await_Return
 {
     class MyClass
     {
-        void Operation()
+        int Operation()
         {
             Thread.Sleep(2000);
-            Console.WriteLine("Main Task  {0}", Thread.CurrentThread.ManagedThreadId);
+            return 2 * 2;
         }
 
-        public async Task OperationAsinc()
+        public async Task<int> OperationAsinc()
         {
-            await Task.Factory.StartNew(Operation);
+            return await Task.Factory.StartNew(Operation);
         }
     }
 
@@ -26,11 +26,11 @@ namespace Async_Await_Continuation
         static void Main(string[] args)
         {
             MyClass myClass = new MyClass();
-            Task task = myClass.OperationAsinc();
-            task.ContinueWith(t => Console.WriteLine("\nContinuation task"));
+            Task<int> task = myClass.OperationAsinc();
+            task.ContinueWith(t => Console.WriteLine("rezult {0}", task.Result));
 
             Console.ReadKey();
-
         }
     }
 }
+

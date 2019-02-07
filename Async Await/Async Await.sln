@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asinc Await Task 3", "Asinc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asinc Await Continuation", "Asinc Await Continuation\Asinc Await Continuation.csproj", "{8F37B382-8B21-4FF7-B45E-5D385A7EB8DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asinc Await Return", "Asinc Await Return\Asinc Await Return.csproj", "{89581856-6951-4A68-AA80-9F8BD23AE9C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8F37B382-8B21-4FF7-B45E-5D385A7EB8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F37B382-8B21-4FF7-B45E-5D385A7EB8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F37B382-8B21-4FF7-B45E-5D385A7EB8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89581856-6951-4A68-AA80-9F8BD23AE9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89581856-6951-4A68-AA80-9F8BD23AE9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89581856-6951-4A68-AA80-9F8BD23AE9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89581856-6951-4A68-AA80-9F8BD23AE9C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
