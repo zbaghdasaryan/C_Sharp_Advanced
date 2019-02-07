@@ -11,7 +11,7 @@ namespace Async_Await_Task_3
     {
         int Operation()
         {
-            Console.WriteLine("Operation Thread ID {0}", Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("операция выполняется в потоке  {0}", Thread.CurrentThread.ManagedThreadId);
 
             Thread.Sleep(2000);
             return 2 * 2;
@@ -19,9 +19,9 @@ namespace Async_Await_Task_3
 
         public async void OperationAsinc()
         {
-            Console.WriteLine("OperationAsinc (Part 1) Thread ID {0}", Thread.CurrentThread.ManagedThreadId);
+           
             Task<int> task = Task<int>.Factory.StartNew(Operation);
-            Console.WriteLine("\nresult {0}", await task);
+            Console.WriteLine("\nрезультат  {0}", await task);
         }
     }
 
@@ -29,9 +29,11 @@ namespace Async_Await_Task_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mail ThreadID {0}", Thread.CurrentThread.ManagedThreadId);
             MyClass myClass = new MyClass();
             myClass.OperationAsinc();
+            Console.WriteLine("первичный поток завершил работу {0}", Thread.CurrentThread.ManagedThreadId);
+            Console.ReadKey();
+            
         }
     }
 }
