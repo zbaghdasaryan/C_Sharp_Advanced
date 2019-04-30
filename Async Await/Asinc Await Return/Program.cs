@@ -7,7 +7,18 @@ using System.Threading;
 
 namespace Async_Await_Return
 {
-    
+    class MyClass
+    {
+        int Operation()
+        {
+            Thread.Sleep(2000);
+            return 2 * 2;
+        }
+
+        public async Task<int> OperationAsinc()
+        {
+            return await Task.Factory.StartNew(Operation);
+        }
     }
 
     class Program
