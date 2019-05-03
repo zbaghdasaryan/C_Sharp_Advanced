@@ -32,11 +32,24 @@ namespace Sorting_Algorithms
                     if (array[j] > array[j + 1])
                         Swap(ref array[j], ref array[j + 1]);
                 }
-                
+
 
             }
         }
 
+        public static void InsertionSort(int[] array)
+        {
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                for (int j = i; j >= 0; j--)
+                {
+                    if (array[j] > array[j + 1])
+                        Swap(ref array[j], ref array[j + 1]);
+                    else
+                        break;
+                }
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -46,12 +59,12 @@ namespace Sorting_Algorithms
             {
                 Console.Write(" " + item);
             }
-
-            BubbleSort(a);
+            //BubbleSort(a);
+            InsertionSort(a);
             Console.WriteLine("\n\nsorted array");
             foreach (var item in a)
             {
-                Console.Write(" "+item);
+                Console.Write(" " + item);
             }
             Console.ReadKey();
         }
@@ -79,17 +92,7 @@ namespace Sorting_Algorithms
             Console.Read();
         }
 
-        public static void BubbleSort(int[] array)
-        {
-            for (int i = array.Length - 1; i > 0; i--)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    if (array[j + 1] < array[j])
-                        swap(ref array[j + 1], ref array[j]);
-                }
-            }
-        }
+        
 
         public static void SelectionSort(int[] array)
         {
@@ -126,7 +129,6 @@ namespace Sorting_Algorithms
                         break;
                 }
             }
-
         }
 
         public static void IntArrayQuickSort(int[] data, int l, int r)
