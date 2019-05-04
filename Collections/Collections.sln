@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue_T", "Queue_T\Queue_T.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_T", "Stack_T\Stack_T.csproj", "{8D2CD365-1D70-40F9-850B-09F440EFA4A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictinory", "Dictinory\Dictinory.csproj", "{0A78EA63-4CDA-4656-86E0-198F17AAC072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,18 @@ Global
 		{8D2CD365-1D70-40F9-850B-09F440EFA4A2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8D2CD365-1D70-40F9-850B-09F440EFA4A2}.Release|x86.ActiveCfg = Release|Any CPU
 		{8D2CD365-1D70-40F9-850B-09F440EFA4A2}.Release|x86.Build.0 = Release|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Debug|x86.Build.0 = Debug|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|x86.ActiveCfg = Release|Any CPU
+		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,7 +19,7 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-
+                         
             Stack<int> numbers = new Stack<int>();
 
             numbers.Push(3); // в стеке 3
