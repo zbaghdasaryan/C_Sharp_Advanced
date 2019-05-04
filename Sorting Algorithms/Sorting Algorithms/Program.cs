@@ -115,20 +115,7 @@ namespace Sorting_Algorithms
             }
         }
 
-        public static void InsertionSort(int[] array)
-        {
-            int N = array.Length;
-
-            for (int i = 0; i < N - 1; i++)
-            {
-                for (int j = i; j >= 0; j--)
-                {
-                    if (array[j] > array[j + 1])
-                        swap(ref array[j], ref array[j + 1]);
-                    else
-                        break;
-                }
-            }
+        
         }
 
         public static void IntArrayQuickSort(int[] data, int l, int r)
