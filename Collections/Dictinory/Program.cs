@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ Словарь хранит объекты, которые представляют пару ключ-значение. 
+ Каждый такой объект является объектом структуры KeyValuePair<TKey, TValue>. 
+ Благодаря свойствам Key и Value, которые есть у данной структуры, мы можем получить ключ и значение элемента в словаре.
+ */
+using System;
 using System.Collections.Generic;
 
 namespace Dictinory
