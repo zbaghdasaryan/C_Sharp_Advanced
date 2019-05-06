@@ -32,8 +32,6 @@ namespace Sorting_Algorithms
                     if (array[j] > array[j + 1])
                         Swap(ref array[j], ref array[j + 1]);
                 }
-
-
             }
         }
 
@@ -51,6 +49,26 @@ namespace Sorting_Algorithms
             }
         }
 
+
+        public static void SelectionSort(int[] array)
+        {
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                int min = array[i];
+                int minIndex = i;
+                for (int j = i + 1; j < array.Length; j++)
+                {
+                    if (array[j] < min)
+                    {
+                        min = array[j];
+                        minIndex = j;
+                        Swap(ref array[i], ref array[minIndex]);
+                    }                                       
+                }
+            }
+        }
+
+
         static void Main(string[] args)
         {
             int[] a = GetRandomArray(10, -10, 50);
@@ -60,7 +78,8 @@ namespace Sorting_Algorithms
                 Console.Write(" " + item);
             }
             //BubbleSort(a);
-            InsertionSort(a);
+            //InsertionSort(a);
+            SelectionSort(a);
             Console.WriteLine("\n\nsorted array");
             foreach (var item in a)
             {
