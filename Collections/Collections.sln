@@ -11,17 +11,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Collection", "E:\ITVDN\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Collection", "E:\ITVDN\ITVDN\03 [ITVDN] C# Professional\[ITVDN] C# Professional\001 - Пользовательские коллекции\001 - Пользовательские коллекции\001 - IEnumerator, IEnumerable, yield\Collection4\004_Collection.csproj", "{5432DACD-A985-4BC7-ACBE-C53615BBDA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\ArrayList.csproj", "{921F05F1-8A81-4284-84A4-AE17D3455CBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList", "ArrayList\ArrayList.csproj", "{921F05F1-8A81-4284-84A4-AE17D3455CBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_T", "List_T\List_T.csproj", "{78A4F846-8FD9-40A8-B34F-760456DF9ADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List_T", "List_T\List_T.csproj", "{78A4F846-8FD9-40A8-B34F-760456DF9ADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{9325FC48-4FA8-429B-ABAB-C779732244ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{9325FC48-4FA8-429B-ABAB-C779732244ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue_T", "Queue_T\Queue_T.csproj", "{07FE2624-4B56-4A71-ADD2-22AB833EDCD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue_T", "Queue_T\Queue_T.csproj", "{07FE2624-4B56-4A71-ADD2-22AB833EDCD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_T", "Stack_T\Stack_T.csproj", "{8D2CD365-1D70-40F9-850B-09F440EFA4A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack_T", "Stack_T\Stack_T.csproj", "{8D2CD365-1D70-40F9-850B-09F440EFA4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictinory", "Dictinory\Dictinory.csproj", "{0A78EA63-4CDA-4656-86E0-198F17AAC072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictinory", "Dictinory\Dictinory.csproj", "{0A78EA63-4CDA-4656-86E0-198F17AAC072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyList", "Linked\SinglyList.csproj", "{75BC542B-F540-41B4-8C02-822FC3435DB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +147,18 @@ Global
 		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A78EA63-4CDA-4656-86E0-198F17AAC072}.Release|x86.Build.0 = Release|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Debug|x86.Build.0 = Debug|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Release|x86.ActiveCfg = Release|Any CPU
+		{75BC542B-F540-41B4-8C02-822FC3435DB4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

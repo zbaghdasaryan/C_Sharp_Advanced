@@ -62,9 +62,9 @@ namespace Sorting_Algorithms
                     {
                         min = array[j];
                         minIndex = j;
-                        Swap(ref array[i], ref array[minIndex]);
-                    }                                       
+                    }
                 }
+                Swap(ref array[i], ref array[minIndex]);
             }
         }
 
@@ -110,30 +110,7 @@ namespace Sorting_Algorithms
 
             Console.Read();
         }
-
-        
-
-        public static void SelectionSort(int[] array)
-        {
-            int N = array.Length;
-
-            for (int i = 0; i < N - 1; i++)
-            {
-                int min = array[i];
-                int minind = i;
-                for (int j = i + 1; j < N; j++)
-                {
-                    if (array[j] < min)
-                    {
-                        min = array[j];
-                        minind = j;
-                    }
-                }
-                //if(i != minind)
-                swap1(ref array[i], ref array[minind]);
-            }
-        }
-
+     
         
         }
 
